@@ -149,7 +149,7 @@ echo "export PATH=\"\$HOME/vendor/node/bin:\$HOME/bin:\$HOME/node_modules/.bin:\
 # Install Compass
 status "Installing Compass"
 if [ "$STACK" == "cedar-14" ]; then
-  export GEM_HOME=$cache_dir/ruby/.gem/ruby/2.2.0
+  export GEM_HOME=$cache_dir/ruby/.gem/ruby/2.3.0
 else
   export GEM_HOME=$cache_dir/ruby/.gem/ruby/1.9.1
 fi
